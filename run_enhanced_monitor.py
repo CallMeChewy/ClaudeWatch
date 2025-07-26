@@ -1,8 +1,8 @@
 # File: run_enhanced_monitor.py
 # Path: /home/herb/Desktop/ClaudeWatch/run_enhanced_monitor.py
 # Standard: AIDEV-PascalCase-2.1
-# Created: 2025-01-26
-# Last Modified: 2025-01-26 06:52PM
+# Created: 2025-07-26
+# Last Modified: 2025-07-26 08:07AM
 
 """Production script for running the Enhanced Claude Monitor."""
 

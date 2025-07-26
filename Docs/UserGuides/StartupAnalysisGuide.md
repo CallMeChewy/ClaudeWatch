@@ -1,12 +1,8 @@
-# File: STARTUP_ANALYSIS_GUIDE.md
-# Path: /home/herb/Desktop/ClaudeWatch/STARTUP_ANALYSIS_GUIDE.md
+# File: StartupAnalysisGuide.md
+# Path: /home/herb/Desktop/ClaudeWatch/Documentation/UserGuides/StartupAnalysisGuide.md
 # Standard: AIDEV-PascalCase-2.1
 # Created: 2025-07-26
-# Last Modified: 2025-07-26 04:26AM
-
-# 🧠 Intelligent Startup Analysis - User Guide
-
-## 🎯 **What is Startup Analysis?**
+# Last Modified: 2025-07-26 08:10AM
 
 The Enhanced Claude Code Usage Monitor now includes **intelligent startup analysis** that examines your historical usage patterns and automatically suggests optimizations when you start the tool.
 

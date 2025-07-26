@@ -1,12 +1,8 @@
-# File: MULTI_SESSION_MONITORING_GUIDE.md
-# Path: /home/herb/Desktop/ClaudeWatch/MULTI_SESSION_MONITORING_GUIDE.md
+# File: MultiSessionMonitoringGuide.md
+# Path: /home/herb/Desktop/ClaudeWatch/Documentation/UserGuides/MultiSessionMonitoringGuide.md
 # Standard: AIDEV-PascalCase-2.1
 # Created: 2025-07-26
-# Last Modified: 2025-07-26 04:26AM
-
-# 🌐 Multi-Session Monitoring - Complete Guide
-
-## 🎯 **Overview**
+# Last Modified: 2025-07-26 08:10AM
 
 The Enhanced Claude Code Usage Monitor now includes **advanced multi-session monitoring** that can independently track and coordinate Claude Code usage across multiple terminals, SSH connections, and execution contexts simultaneously.
 

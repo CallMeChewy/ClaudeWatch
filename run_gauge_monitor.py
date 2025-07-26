@@ -2,7 +2,7 @@
 # Path: /home/herb/Desktop/ClaudeWatch/run_gauge_monitor.py
 # Standard: AIDEV-PascalCase-2.1
 # Created: 2025-07-26
-# Last Modified: 2025-07-26 07:59AM
+# Last Modified: 2025-07-26 08:07AM
 
 """
 Enhanced Claude Monitor with beautiful gauge displays

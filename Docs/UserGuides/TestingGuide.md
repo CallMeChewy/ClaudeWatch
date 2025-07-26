@@ -1,14 +1,9 @@
-# File: TESTING_GUIDE.md
-# Path: /home/herb/Desktop/ClaudeWatch/TESTING_GUIDE.md
+# File: TestingGuide.md
+# Path: /home/herb/Desktop/ClaudeWatch/Documentation/UserGuides/TestingGuide.md
 # Standard: AIDEV-PascalCase-2.1
 # Created: 2025-07-26
-# Last Modified: 2025-07-26 05:32AM
+# Last Modified: 2025-07-26 08:10AM
 
-# 🧪 Complete Testing Guide
-
-## 🚀 **Quick Start Testing**
-
-### **1. Basic System Test**
 ```bash
 cd /home/herb/Desktop/ClaudeWatch
 python run_enhanced_monitor.py --status

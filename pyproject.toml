@@ -1,13 +1,19 @@
-# Automatically refactored pyproject.toml with best practices
+# File: pyproject.toml
+# Path: /home/herb/Desktop/ClaudeWatch/pyproject.toml
+# Standard: AIDEV-PascalCase-2.1
+# Created: 2025-07-26
+# Last Modified: 2025-07-26 08:08AM
+
+# Enhanced Claude Monitor - Project Configuration
 
 [build-system]
 requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "claude-monitor"
-version = "3.1.0"
-description = "A real-time terminal monitoring tool for Claude Code token usage with advanced analytics and Rich UI"
+name = "enhanced-claude-monitor"
+version = "1.0.0"
+description = "Enhanced Claude Code Usage Monitor with multi-session support, intelligent analytics, and beautiful gauge displays"
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.9"

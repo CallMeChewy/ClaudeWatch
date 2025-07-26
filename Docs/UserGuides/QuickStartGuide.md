@@ -1,12 +1,8 @@
-# File: QUICK_START_GUIDE.md
-# Path: /home/herb/Desktop/ClaudeWatch/QUICK_START_GUIDE.md
+# File: QuickStartGuide.md
+# Path: /home/herb/Desktop/ClaudeWatch/Documentation/UserGuides/QuickStartGuide.md
 # Standard: AIDEV-PascalCase-2.1
-# Created: 2025-01-26
-# Last Modified: 2025-01-26 07:10PM
-
-# ⚡ Quick Start Guide - Enhanced Claude Monitor
-
-## 🚀 **Immediate Usage (30 seconds)**
+# Created: 2025-07-26
+# Last Modified: 2025-07-26 08:10AM
 
 ```bash
 # Navigate to project directory

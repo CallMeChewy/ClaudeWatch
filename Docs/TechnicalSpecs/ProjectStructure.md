@@ -1,12 +1,9 @@
-# File: PROJECT_STRUCTURE.md
-# Path: /home/herb/Desktop/ClaudeWatch/PROJECT_STRUCTURE.md
+# File: ProjectStructure.md
+# Path: /home/herb/Desktop/ClaudeWatch/Documentation/TechnicalSpecs/ProjectStructure.md
 # Standard: AIDEV-PascalCase-2.1
-# Created: 2025-01-26
-# Last Modified: 2025-01-26 06:55PM
+# Created: 2025-07-26
+# Last Modified: 2025-07-26 08:10AM
 
-# Claude Code Usage Monitor - Clean Project Structure
-
-## Overview
 This document describes the cleaned and organized project structure after implementing enhanced features and archiving deprecated components.
 
 ## Root Directory
