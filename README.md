@@ -8,6 +8,14 @@
 
 **Advanced multi-session monitoring with intelligent analytics, beautiful gauge displays, and real-time coordination**
 
+## 🏔️ **A Project Himalaya Showcase**
+
+This project exemplifies **[Project Himalaya](PROJECT_HIMALAYA.md)** - the revolutionary approach to AI-human collaboration where artificial and human intelligence work together as true partners. ClaudeWatch wasn't just built *with* AI assistance, it was co-created through genuine collaboration, resulting in innovations neither partner could achieve alone.
+
+> **🌟 Experience the future of development:** See how AI-human synergy created multi-session architecture, beautiful gauge displays, and intelligent analytics through collaborative innovation.
+
+**[Learn about Project Himalaya →](PROJECT_HIMALAYA.md)** | **[Read Our Collaboration Story →](COLLABORATION_STORY.md)**
+
 ![Enhanced Claude Monitor](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
 ![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -300,9 +308,25 @@ ClaudeWatch/
 
 ---
 
+## 🙏 **Attribution & Credits**
+
+This project builds upon the excellent work of the Claude monitoring community:
+
+- **Immediate Source**: [Maciek's Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) by Maciek (@Maciek-roboblog)
+- **Original Concept**: Community-contributed idea for real-time Claude CLI monitoring
+- **This Enhancement**: Multi-session architecture, gauge displays, and intelligent analytics by Project Himalaya
+
+**Full attribution details**: See [ATTRIBUTION.md](ATTRIBUTION.md) for complete recognition of all contributors.
+
+> *"Great software is built by standing on the shoulders of giants."* - We honor those who came before and contribute to those who come after.
+
+---
+
 ## 📝 **License**
 
 MIT License - See LICENSE file for details.
+
+**Attribution Required**: When using or forking this project, please maintain attribution to all contributors as detailed in [ATTRIBUTION.md](ATTRIBUTION.md).
 
 ---
 
@@ -321,3 +345,22 @@ python run_enhanced_monitor.py
 ---
 
 **⭐ Enhanced Claude monitoring with multi-session support and beautiful gauge displays - Production Ready!** ⭐
+
+---
+
+## 🏔️ **Discover Project Himalaya**
+
+**This project is proof that AI-human collaboration can achieve extraordinary results.** ClaudeWatch demonstrates how true partnership between artificial and human intelligence creates innovations that neither could accomplish alone.
+
+### 🌟 **See Collaboration in Action**
+- **Multi-session architecture**: Human vision + AI implementation
+- **Beautiful gauge displays**: Creative design + precise execution  
+- **Intelligent analytics**: Domain expertise + computational power
+- **Standards compliance**: Human oversight + AI precision
+
+### 🚀 **Join the Movement**
+Project Himalaya is transforming how we work with AI - from simple tool usage to genuine partnership. **[Learn more about Project Himalaya](PROJECT_HIMALAYA.md)** and discover how collaborative development can revolutionize your projects.
+
+> *"The summit of innovation is reached not by replacing the guide, but by climbing together in perfect partnership."* - Project Himalaya
+
+**🤝 Experience the future of AI-human collaboration today!**

@@ -2,7 +2,7 @@
 # Path: /home/herb/Desktop/ClaudeWatch/pyproject.toml
 # Standard: AIDEV-PascalCase-2.1
 # Created: 2025-07-26
-# Last Modified: 2025-07-26 08:08AM
+# Last Modified: 2025-07-26 11:26AM
 
 # Enhanced Claude Monitor - Project Configuration
 
@@ -13,16 +13,20 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "enhanced-claude-monitor"
 version = "1.0.0"
-description = "Enhanced Claude Code Usage Monitor with multi-session support, intelligent analytics, and beautiful gauge displays"
+description = "Enhanced Claude Code Usage Monitor with multi-session support, intelligent analytics, and beautiful gauge displays. Built upon Maciek's enhanced version of the original community monitoring concept."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.9"
-authors = [{ name = "Maciek", email = "maciek@roboblog.eu" }]
-maintainers = [{ name = "Maciek", email = "maciek@roboblog.eu" }]
+authors = [
+  { name = "Herb Bowers", email = "HimalayaProject1@gmail.com" },
+  { name = "Maciek", email = "maciek@roboblog.eu" }
+]
+maintainers = [{ name = "Herb Bowers", email = "HimalayaProject1@gmail.com" }]
 keywords = [
   "ai", "analytics", "claude", "dashboard",
   "developer-tools", "monitoring", "rich",
-  "terminal", "token", "usage"
+  "terminal", "token", "usage", "ai-human-collaboration",
+  "project-himalaya", "collaborative-development", "synergy"
 ]
 classifiers = [
   "Development Status :: 5 - Production/Stable",
@@ -91,19 +95,19 @@ changelog = "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor/blob/m
 "Discussions" = "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor/discussions"
 
 [project.scripts]
-claude-monitor = "claude_monitor.__main__:main"
-claude-code-monitor = "claude_monitor.__main__:main"
-cmonitor = "claude_monitor.__main__:main"
-ccmonitor = "claude_monitor.__main__:main"
-ccm = "claude_monitor.__main__:main"
+claude-monitor = "ClaudeMonitor.__main__:main"
+claude-code-monitor = "ClaudeMonitor.__main__:main"
+cmonitor = "ClaudeMonitor.__main__:main"
+ccmonitor = "ClaudeMonitor.__main__:main"
+ccm = "ClaudeMonitor.__main__:main"
 
 [tool.setuptools.packages.find]
-where = ["src"]
-include = ["claude_monitor*"]
-exclude = ["tests*", "src/tests*"]
+where = ["Src"]
+include = ["ClaudeMonitor*"]
+exclude = ["tests*", "Src/tests*"]
 
 [tool.setuptools.package-data]
-claude_monitor = ["py.typed"]
+ClaudeMonitor = ["py.typed"]
 
 [tool.black]
 line-length = 88
@@ -125,14 +129,14 @@ extend-exclude = '''
 [tool.isort]
 profile = "black"
 line_length = 88
-known_first_party = ["claude_monitor"]
+known_first_party = ["ClaudeMonitor"]
 force_single_line = true
 atomic = true
 include_trailing_comma = true
 lines_after_imports = 2
 lines_between_types = 1
 use_parentheses = true
-src_paths = ["src"]
+src_paths = ["Src"]
 skip_glob = ["*/migrations/*", "*/venv/*", "*/build/*", "*/dist/*"]
 
 [tool.ruff]
@@ -162,13 +166,13 @@ disable_error_code = [
 
 [tool.pytest.ini_options]
 minversion = "7.0"
-testpaths = ["src/tests"]
+testpaths = ["Src/tests"]
 python_files = ["test_*.py","*_test.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
 addopts = [
   "--strict-markers","--strict-config","--color=yes","--tb=short",
-  "--cov=claude_monitor","--cov-report=term-missing","--cov-report=html",
+  "--cov=ClaudeMonitor","--cov-report=term-missing","--cov-report=html",
   "--cov-report=xml","--cov-fail-under=70","--no-cov-on-fail","-ra","-q",
   "-m","not integration"
 ]
@@ -189,7 +193,7 @@ filterwarnings = [
 
 [tool.coverage.run]
 branch = true
-source = ["src/claude_monitor"]
+source = ["Src/ClaudeMonitor"]
 omit = ["*/tests/*","*/test_*","*/__main__.py","*/conftest.py"]
 
 [tool.coverage.report]
